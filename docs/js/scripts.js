@@ -97,7 +97,7 @@ async function getData() {
         stephan,
         mitchel,
         nicole
-    } ;
+    };
 
     const stefHead = document.getElementById("stefHead")
     const stephanHead = document.getElementById("stephanHead")
@@ -112,10 +112,8 @@ async function getData() {
     console.log(mdata);
 
     const memberSection = document.querySelectorAll('.memberSection');
-    
 
     let membersArray = Array.from(memberSection);
-    
     
     membersArray.forEach((section, index) => {
         const memberInfoUl = section.querySelector('ul');
@@ -129,15 +127,11 @@ async function getData() {
             section.querySelector('.rightArm').classList.remove('wave');
             memberInfoUl.style.opacity = '0'
         });
+
+        // const nameContainer = section.querySelector(`details:nth-of-type(${index}) p`)
+
+        // nameContainer.innerHTML = section.firstName + section.lastName
     });
-
-    // memberSection.addEventListener('mouseover', function startWave() {
-    //     document.querySelector('.rightArm').classList.add('wave')
-    // })
-
-    // memberSection.addEventListener('mouseout', function startWave() {
-    //     document.querySelector('.rightArm').classList.remove('wave')
-    // })
 }
 
 getData();
