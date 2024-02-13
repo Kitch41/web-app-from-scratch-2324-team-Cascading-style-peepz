@@ -112,16 +112,22 @@ async function getData() {
     console.log(mdata);
 
     const memberSection = document.querySelectorAll('.memberSection');
+    
 
     let membersArray = Array.from(memberSection);
     
+    
     membersArray.forEach((section, index) => {
+        const memberInfoUl = section.querySelector('ul');
+
         section.addEventListener('mouseover', function startWave() {
             section.querySelector('.rightArm').classList.add('wave');
+            memberInfoUl.style.opacity = '1'
         });
 
         section.addEventListener('mouseout', function startWave() {
             section.querySelector('.rightArm').classList.remove('wave');
+            memberInfoUl.style.opacity = '0'
         });
     });
 
