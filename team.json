@@ -1,0 +1,24 @@
+{
+    "teamName": "Cascading Style Peepz",
+    "members": [
+        {
+            "name" : "Stef",
+            "personalPage" : "https://kitch41.github.io/Webapps-From-Scratch-23-24/"
+        },
+        {
+            "name" : "Stephan",
+            "personalPage" : "https://spacejump3.github.io/web-app-from-scratch-2324/"
+        },
+        {
+            "name" : "Nicole",
+            "personalPage" : "https://kaboutergeitje.github.io/web-app-from-scratch-2324/"
+        },
+        {
+            "name" : "Mitchel",
+            "personalPage" : "https://mitchel-ds.github.io/web-app-from-scratch-2324/"
+        }
+    ]
+}
+
+
+

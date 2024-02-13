@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+:root {
+    --maincolor: green;
+    --accentcolor: yellow;
+
+    --lighttext: white;
+    --darktext: black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 0.8em;
+}
+
+h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 1000;
+    color: black;
+}
+
+summary {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 1000;
+}
+
+html {
+    height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(-180deg);
+    }
+
+    100% {
+        transform: rotate(-100deg);
+    }
+}
+
+@keyframes idle {
+    0% {
+        transform: scale(1, 0.95);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.wave {
+    animation: wave 1s alternate infinite;
+}
+
+.stickman {
+    transform-origin: center bottom;
+    animation: idle 1s alternate infinite;
+
+    .head {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        background-color: black;
+        border-radius: 100%;
+
+        top: 52px;
+
+        z-index: 1;
+    }
+
+    #stefHead {
+        background-position: left -78px top -45px;
+        background-size: 200px;
+    }
+
+    .torso {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 10px;
+        height: 100px;
+
+        left: 67px;
+        top: 130px;
+
+        background-color: black;
+    }
+
+    .leftArm {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 10px;
+        height: 100px;
+        transform: rotate(25deg);
+        transform-origin: top;
+
+        left: 65px;
+        top: 130px;
+
+        background-color: black;
+    }
+
+    .rightArm {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 10px;
+        height: 100px;
+        transform-origin: top;
+        transform: rotate(-25deg);
+        /* animation: wave 1s alternate infinite; */
+        /* transition: 1s ease; */
+
+        left: 70px;
+        top: 130px;
+
+        background-color: black;
+    }
+
+    .rightLeg {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 10px;
+        height: 100px;
+        transform: rotate(-25deg);
+
+        left: 90px;
+        top: 220px;
+
+        background-color: black;
+    }
+
+    .leftLeg {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 10px;
+        height: 100px;
+        transform: rotate(25deg);
+
+        left: 45px;
+        top: 220px;
+
+        background-color: black;
+    }
+}
+
+body {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+
+    @media (max-width: 500px) {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        min-height: 300px;
+    }
+
+    section {
+        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+
+        @media (max-width: 1000px) {
+            flex-direction: column;
+            width: 100%;
+            padding: 2em 2em 2em 2em;
+        }
+
+        div:nth-of-type(1) {
+            padding: 2em 0 2em 2em;
+            width: 50%;
+        }
+
+        div:nth-of-type(2) {
+            padding: 2em 2em 2em 0;
+            width: 50%;
+
+            @media (max-width: 1000px) {
+                width: 100%;
+                padding: 0;
+            }
+
+            ul {
+                list-style: none;
+                background-color: white;
+                padding: 1em;
+                border-radius: 1em;
+
+                li {
+                    details {
+                        summary {
+                            padding: 0.2em 0;
+                        }
+
+                        p {
+                            padding-bottom: 0.5em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section:nth-of-type(1) {
+        background-image: url(../images/background-stef.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    }
+
+    section:nth-of-type(2) {
+    }
+
+    section:nth-of-type(3) {
+    }
+
+    section:nth-of-type(4) {
+    }
+}
