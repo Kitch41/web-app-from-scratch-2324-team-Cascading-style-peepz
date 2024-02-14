@@ -101,6 +101,11 @@ section div ul {
         background-size: 150px;
     }
 
+    #mitchelHead {
+        background-position: left -15px top -35px;
+        background-size: 120px;
+    }
+
     .torso {
         margin: 0;
         padding: 0;
