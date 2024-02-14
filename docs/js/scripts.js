@@ -196,25 +196,6 @@ async function useData() {
     //     document.querySelector('.rightArm').classList.remove('wave')
     // })
 
-<<<<<<< Updated upstream
-    // const mitchelName = document.getElementById("mitchelName")
-    // const mitchelDOB = document.getElementById("mitchelDOB")
-    // const mitchelBio = document.getElementById("mitchelBio")
-    // const mitchelPets = document.getElementById("mitchelPets")
-    // const mitchelHobbies = document.getElementById("mitchelHobbies")
-
-    // mitchelName.innerHTML = mdata.mitchel.firstName + " " +  mdata.mitchel.lastName;
-    // mitchelDOB.innerHTML = mdata.mitchel.age;
-    // mitchelBio.innerHTML = mdata.mitchel.bio;
-    // mitchelPets.innerHTML = mdata.mitchel.favouriteAnimal;
-    // mitchelHobbies.innerHTML = mdata.mitchel.hobbies;
-}
-
-
-
-
-getData();
-=======
 //     const mitchelName = document.getElementById("mitchelName")
 //     const mitchelDOB = document.getElementById("mitchelDOB")
 //     const mitchelBio = document.getElementById("mitchelBio")
@@ -226,7 +207,6 @@ getData();
 //     mitchelBio.innerHTML = mdata.mitchel.bio;
 //     mitchelPets.innerHTML = mdata.mitchel.favouriteAnimal;
 //     mitchelHobbies.innerHTML = mdata.mitchel.hobbies;    
->>>>>>> Stashed changes
 
 
 //Main-----------------Animal API Data-------------------------------------------------------------------------------

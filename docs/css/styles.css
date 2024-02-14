@@ -101,11 +101,6 @@ section div ul {
         background-size: 150px;
     }
 
-<<<<<<< Updated upstream
-    #mitchelHead {
-        background-position: left -15px top -35px;
-        background-size: 120px;
-=======
     
     #mitchelHead {
         background-position: center;
@@ -115,7 +110,6 @@ section div ul {
     #nicoleHead {
         background-position: left bottom;
         background-size: cover;
->>>>>>> Stashed changes
     }
 
     .torso {
