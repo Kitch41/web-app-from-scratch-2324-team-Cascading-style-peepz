@@ -24,6 +24,7 @@ Here some information about each website.
 ### Stephan 
 
 ### Nicole
+I wanted to make a portfolio. I'm wasn't completely sure where I wanted to go with it and didn't want to waste too much time on designing instead of coding, so I kept the design simple and I changed my idea about what it was going to be as I was coding it. Now it's just a preview of showing the projects I worked on without much information.
 
 ### Stef
 
