@@ -185,6 +185,7 @@ We started off with the idea of making a website about hobby's, so I immediately
 I wanted to make a portfolio. I wasn't completely sure where I wanted to go with it and didn't want to waste too much time on designing instead of coding, so I kept the design simple and I changed my idea about what it was going to be as I was coding it. Now it's just a preview of the projects I worked on without much information.
 
 ### Stef
+At the beginning we were brainstorming about the idea of creating a website with our hobbys and possibly our pets. This got me thinking. My hobby is coding and gaming and i love pets. For that reason i decided i would go and build a webapp that fits both. My app is a simple looking one but behind the scenes its a lot more complicated than you think. It uses an animal api that gets me the html codes. In the end im very happy with how it turned out. A little farming game.
 
 ### Mitchel
 
