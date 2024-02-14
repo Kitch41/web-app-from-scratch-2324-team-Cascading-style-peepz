@@ -293,7 +293,7 @@ body {
     }
 
     section:nth-of-type(3) {
-        background-image: url(../images/background-nicole.PNG);
+        background-image: url(../images/background-nicole.png);
         background-size: cover;
         background-repeat: no-repeat;
         box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
