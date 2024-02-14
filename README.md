@@ -178,6 +178,8 @@ Here some information about each website.
 
 ### Stephan 
 
+We started off with the idea of making a website about hobby's, so I immediately thought of something to do with movies. I also knew there was some kind of movie API so I decided to go for it. I wanted to make the site very personal and tried to incorporate some visual ideas. For example, the carrousel is designed after a filmstrip and the loading icon is a shutter. With the Open Movie Database API I could add my movies and also pick and choose what information I wanted to display. In the end I made a very simple website showcasing some of my favourite movies.
+
 ### Nicole
 
 I wanted to make a portfolio. I wasn't completely sure where I wanted to go with it and didn't want to waste too much time on designing instead of coding, so I kept the design simple and I changed my idea about what it was going to be as I was coding it. Now it's just a preview of the projects I worked on without much information.
