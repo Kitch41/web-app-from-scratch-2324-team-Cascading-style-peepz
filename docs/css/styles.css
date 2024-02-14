@@ -111,7 +111,7 @@ section div ul {
         background-position: left bottom;
         background-size: cover;
     }
-    
+
 
     .torso {
         margin: 0;
@@ -275,7 +275,7 @@ body {
     }
 
     section:nth-of-type(2) {
-        background-image: url(../images/background-stephan.PNG);
+        background-image: url(../images/background-stephan.png);
         background-size: cover;
         background-repeat: no-repeat;
         box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
