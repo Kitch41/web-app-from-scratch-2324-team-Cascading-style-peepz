@@ -97,7 +97,7 @@ async function getData() {
         stephan,
         mitchel,
         nicole
-    } ;
+    };
 
     const stefHead = document.getElementById("stefHead")
     const stephanHead = document.getElementById("stephanHead")
@@ -116,13 +116,21 @@ async function getData() {
     let membersArray = Array.from(memberSection);
     
     membersArray.forEach((section, index) => {
+        const memberInfoUl = section.querySelector('ul');
+
         section.addEventListener('mouseover', function startWave() {
             section.querySelector('.rightArm').classList.add('wave');
+            memberInfoUl.style.opacity = '1'
         });
 
         section.addEventListener('mouseout', function startWave() {
             section.querySelector('.rightArm').classList.remove('wave');
+            memberInfoUl.style.opacity = '0'
         });
+
+        // const nameContainer = section.querySelector(`details:nth-of-type(${index}) p`)
+
+        // nameContainer.innerHTML = section.firstName + section.lastName
     });
 
     // memberSection.addEventListener('mouseover', function startWave() {
