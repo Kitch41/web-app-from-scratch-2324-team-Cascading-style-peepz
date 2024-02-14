@@ -44,7 +44,6 @@ async function getAllData() {
 
 
 
-
 async function useData() {
     try {
         const fetchData = await getAllData();
